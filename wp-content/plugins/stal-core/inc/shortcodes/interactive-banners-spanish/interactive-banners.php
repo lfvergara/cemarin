@@ -101,7 +101,7 @@ if ( class_exists( 'StalCoreShortcode' ) ) {
 			$atts['items']          = $this->parse_repeater_items( $atts['children'] );
 			$atts['this_shortcode'] = $this;
 			
-			return stal_core_get_template_part( 'shortcodes/interactive-banners-spanish', 'templates/interactive-banners', '', $atts );
+			return stal_core_get_template_part( 'shortcodes/interactive-banners-spanish', 'templates/interactive-banners-spanish', '', $atts );
 		}
 		
 		private function get_holder_classes( $atts ) {
