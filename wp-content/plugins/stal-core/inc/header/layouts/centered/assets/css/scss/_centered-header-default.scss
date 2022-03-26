@@ -1,0 +1,17 @@
+/* Centered header style - start */
+
+.qodef-header--centered {
+	
+	#qodef-page-header-inner {
+		.qodef-widget-holder-left {
+			margin-right: auto;
+		}
+		.qodef-header-logo-link {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}
+
+/* Centered header style - end */

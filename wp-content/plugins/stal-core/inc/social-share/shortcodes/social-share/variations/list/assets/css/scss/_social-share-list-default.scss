@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Social Share shortcode styles
+   ========================================================================== */
+
+.qodef-social-share {
+	&.qodef-layout--list {
+		
+		li {
+			margin-right: 5px;
+			
+			a {
+				display: inline-block;
+				font-size: 22px;
+				color: #fff;
+				background-color: $main-color;
+				width: 40px;
+				height: 40px;
+				line-height: 42px;
+				text-align: center;
+				transition: background-color .2s ease-out;
+
+				&:hover {
+					background-color: #c60400;
+				}
+			}
+			
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Social Share shortcode styles
+   ========================================================================== */

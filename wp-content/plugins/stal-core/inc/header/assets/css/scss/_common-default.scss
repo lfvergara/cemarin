@@ -1,0 +1,30 @@
+#qodef-page-header {
+	
+	.qodef-header-navigation > ul:not(#qodef-sticky-navigation-menu) > li > a {
+
+		.qodef-header--light & {
+			color: #fff;
+		}
+
+		.qodef-header--dark & {
+			color: #000;
+		}
+	}
+
+	.qodef-widget-holder {
+		display: flex;
+		align-items: center;
+		height: 100%;
+
+		.widget {
+			margin: 0 0 0 30px;
+		}
+	}
+}
+
+#qodef-page-header-inner {
+
+	&.qodef-content-grid {
+		padding: 0;
+	}
+}

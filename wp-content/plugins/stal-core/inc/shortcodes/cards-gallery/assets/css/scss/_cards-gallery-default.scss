@@ -1,0 +1,197 @@
+/* ==========================================================================
+   Cards Gallery shortcode style - begin
+   ========================================================================== */
+
+.qodef-cards-gallery {
+	@include qodefRelativeLayout();
+	padding: 10px 0;
+	
+	.qodef-e-inner {
+		@include qodefRelativeLayout();
+	}
+	
+	img {
+		position: relative;
+		display: block;
+		box-shadow: $box-shadow;
+	}
+
+	.qodef-m-fake-card {
+		position: relative;
+		display: block;
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+	}
+
+	&.qodef-gallery--disabled {
+
+		.qodef-m-card {
+			cursor: default !important;
+		}
+
+		.qodef-m-bundle-item {
+
+			a {
+				pointer-events: none;
+				cursor: default;
+			}
+		}
+	}
+	
+	.qodef-m-card {
+		position: absolute;
+		transition: all .15s ease;
+		
+		&.qodef-animating {
+			transition: all 1s cubic-bezier(.19, 1, .22, 1);
+			pointer-events: none;
+		}
+		
+		&.qodef-animating-siblings {
+			transition: all .6s cubic-bezier(0, 0, 0, 1);
+			pointer-events: none;
+		}
+	}
+	
+	&.qodef-orientation--left .qodef-m-card {
+		left: 0;
+		will-change: transform;
+		
+		&.qodef-out {
+			transform: translateX(-100%);
+		}
+		
+		&:nth-last-child(6) {
+			transform: scale(.5) translateX(89%);
+		}
+		
+		&:nth-last-child(5) {
+			transform: scale(.55) translateX(85%);
+		}
+		
+		&:nth-last-child(4) {
+			transform: scale(.635) translateX(75%);
+		}
+		
+		&:nth-last-child(3) {
+			transform: scale(.735) translateX(56%);
+		}
+		
+		&:nth-last-child(2) {
+			transform: scale(.835) translateX(33%);
+		}
+		
+		&:not(:last-of-type) {
+			cursor: pointer;
+		}
+		
+		&:not(:last-of-type):not(.active):hover {
+
+			.qodef-gallery--enabled & {
+				margin-right: 10px !important;
+			}
+		}
+	}
+	
+	&.qodef-orientation--right .qodef-m-card {
+		right: 0;
+		will-change: transform;
+		
+		&.qodef-out {
+			transform: translateX(100%);
+		}
+		
+		&:nth-last-child(6) {
+			transform: scale(.5) translateX(-89%);
+		}
+		
+		&:nth-last-child(5) {
+			transform: scale(.55) translateX(-85%);
+		}
+		
+		&:nth-last-child(4) {
+			transform: scale(.635) translateX(-75%);
+		}
+		
+		&:nth-last-child(3) {
+			transform: scale(.735) translateX(-56%);
+		}
+		
+		&:nth-last-child(2) {
+			transform: scale(.835) translateX(-33%);
+		}
+		
+		&:not(:last-of-type) {
+			cursor: pointer;
+		}
+		
+		&:not(:last-of-type):not(.active):hover {
+
+			.qodef-gallery--enabled & {
+				margin-right: 10px !important;
+			}
+		}
+	}
+	
+	 &.qodef-animation--bundle {
+		
+		&.qodef-orientation--right {
+			
+			img {
+				-webkit-clip-path: inset(0 0 0 100%);
+				clip-path: inset(0 0 0 100%);
+				transition: clip-path .75s cubic-bezier(.785,.135,.15,.86);
+			}
+
+			&.qodef-appeared {
+
+				img {
+					-webkit-clip-path: inset(0 0 0 0);
+					clip-path: inset(0 0 0 0);
+				}
+			}
+			
+			.qodef-m-card {
+				@for $i from 1 through 8 {
+					&:nth-child(#{$i}) {
+						img:not(.qodef-animation-done) {
+							transition-delay: $i * .2s;
+						}
+					}
+				}
+			}
+		}
+		
+		&.qodef-orientation--left {
+
+			&.qodef-appeared {
+
+				img {
+					-webkit-clip-path: inset(0 0 0 0);
+					clip-path: inset(0 0 0 0);
+				}
+			}
+
+			img {
+				-webkit-clip-path: inset(0 0 100% 0);
+				clip-path: inset(0 0 100% 0);
+				transition: clip-path .75s cubic-bezier(.785,.135,.15,.86);
+			}
+			
+			.qodef-m-card {
+				@for $i from 1 through 8 {
+					&:nth-child(#{$i}) {
+						img:not(.qodef-animation-done) {
+							transition-delay: $i * .2s;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Cards Gallery shortcode style - begin
+   ========================================================================== */

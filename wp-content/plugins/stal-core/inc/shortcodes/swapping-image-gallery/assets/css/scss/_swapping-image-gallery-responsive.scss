@@ -1,0 +1,77 @@
+/* ==========================================================================
+   Swapping image gallery shortcode responsive style - begin
+   ========================================================================== */
+
+.qodef-swapping-image-gallery {
+	
+	@include qodefScreenSize1440 {
+		.qodef-m-info {
+			padding: 50px 9%;
+		}
+
+		.qodef-m-image-holder {
+			width: 72%;
+			margin-left: 28%;
+		}
+	}
+	
+	@include qodefScreenSize1024 {
+		
+		display: block;
+		
+		.qodef-m-info {
+			position: relative;
+			left: 0;
+			top:0;
+			transform: none;
+			width: auto;
+			padding: 115px 12.5% 70px;
+			background-color: #fff;
+			z-index: 90;
+		}
+		
+		.qodef-m-info,
+		.qodef-m-image-holder {
+			flex-basis: auto;
+		}
+		
+		.qodef-m-image-holder {
+			width: auto;
+			margin-left: 0;
+		}
+		
+		&.qodef-title-break--disabled {
+			
+			.qodef-m-title {
+				
+				br {
+					display: none;
+				}
+			}
+		}
+		
+		&.qodef-title-with-tagline {
+			.qodef-m-title-tagline {
+				display: block;
+				position: relative;
+				top: 0;
+				left: 0;
+				transform: none;
+				margin-bottom: 12px;
+			}
+			.qodef-m-text,
+			.qodef-m-title {
+				padding: 0;
+			}
+		}
+	}
+
+	@include qodefScreenSize680 {
+		.qodef-m-info {
+			padding: 94px 7% 50px;
+		}
+	}
+}
+/* ==========================================================================
+   Swapping image gallery shortcode responsive style - end
+   ========================================================================== */

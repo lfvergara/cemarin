@@ -1,0 +1,27 @@
+@include qodefScreenSize680 {
+
+	.qodef-testimonials-list {
+
+		.qodef-e-quotes {
+			display: none;
+		}
+
+		.qodef-e-inner {
+			display: block;
+		}
+
+		.qodef-e-content {
+			margin: 180px 0 0 0;
+			padding-bottom: 110px;
+			width: 100%;
+		}
+
+		.qodef-e-media-image {
+			top: 0;
+
+			img {
+				width: auto;
+			}
+		}
+	}
+}

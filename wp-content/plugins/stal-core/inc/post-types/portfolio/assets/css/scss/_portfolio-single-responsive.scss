@@ -1,0 +1,15 @@
+@include qodefScreenSize1024 {
+	
+	.qodef-porfolio-single-layout--gallery-small,
+	.qodef-porfolio-single-layout--images-small,
+	.qodef-porfolio-single-layout--masonry-small {
+		
+		.qodef-media {
+			margin-right: 0;
+		}
+		
+		.qodef-grid>.qodef-grid-inner>.qodef-grid-item.qodef-col--4 {
+			margin-top: 38px;
+		}
+	}
+}

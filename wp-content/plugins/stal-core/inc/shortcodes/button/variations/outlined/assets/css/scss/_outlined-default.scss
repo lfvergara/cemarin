@@ -1,0 +1,27 @@
+.qodef-button {
+
+    &.qodef-layout--outlined {
+        @include qodefButtonOutlinedColor();
+
+        &:hover {
+            @include qodefButtonOutlinedHoverColor();
+
+            .qodef-m-text {
+
+                .qodef-m-arrowline {
+
+                    .arrow-up,
+                    .arrow-down {
+                        opacity: 0;
+                        transform: rotate(-40deg);
+                        transition: transform .3s ease, opacity .1s ease .1s;
+                    }
+
+                    .arrow-down {
+                        transform: rotate(40deg);
+                    }
+                }
+            }
+        }
+    }
+}

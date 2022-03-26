@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Button shortcode styles
+   ========================================================================== */
+
+.qodef-button {
+
+	.qodef-m-text {
+		position: relative;
+
+		.qodef-m-arrowline {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			width: 63px;
+			height: 19px;
+			left: 8px;
+
+			* {
+				stroke: currentColor;
+				fill: none;
+				stroke-miterlimit: 10;
+			}
+
+			.arrow-up,
+			.arrow-down {
+				opacity: 1;
+				transition: transform .3s ease, opacity .1s ease;
+			}
+
+			.arrow-up {
+				transform: rotate(0);
+				transform-origin: right;
+			}
+
+			.arrow-down {
+				transform: rotate(0);
+				transform-origin: right;
+			}
+		}
+	}
+	
+	&.qodef-html--link {
+		@include qodefButtonDefaultStyle();
+		@include qodefButtonSize();
+	}
+	
+	&.qodef-size--small {
+		@include qodefButtonSize(small);
+
+		.qodef-m-text .qodef-m-arrowline {
+			width: 52px;
+		}
+	}
+	
+	&.qodef-size--large {
+		@include qodefButtonSize(large);
+	}
+}

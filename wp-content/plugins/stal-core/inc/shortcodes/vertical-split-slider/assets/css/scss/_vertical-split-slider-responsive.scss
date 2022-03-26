@@ -1,0 +1,32 @@
+.qodef-vertical-split-slider {
+	
+	@mixin responsive-common {
+		display: none;
+		
+		+ .qodef-vss-responsive {
+			display: block;
+			
+			.qodef-m-slide {
+    
+				&-content,
+				&-image {
+					min-height: 100vh;
+				}
+			}
+		}
+	}
+	
+	@include qodefScreenSize1024 {
+  
+		&.qodef-disable-below--1024 {
+			@include responsive-common;
+		}
+	}
+	
+	@include qodefScreenSize768 {
+  
+		&.qodef-disable-below--768 {
+			@include responsive-common;
+		}
+	}
+}

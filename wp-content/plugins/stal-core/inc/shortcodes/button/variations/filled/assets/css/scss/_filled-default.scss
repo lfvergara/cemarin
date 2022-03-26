@@ -1,0 +1,30 @@
+.qodef-button {
+
+    &.qodef-layout--filled {
+    
+        &.qodef-html--link {
+            @include qodefButtonFilledColor();
+    
+            &:hover {
+                @include qodefButtonFilledHoverColor();
+
+                .qodef-m-text {
+
+                    .qodef-m-arrowline {
+
+                        .arrow-up,
+                        .arrow-down {
+                            opacity: 0;
+                            transform: rotate(-40deg);
+                            transition: transform .3s ease, opacity .1s ease .1s;
+                        }
+
+                        .arrow-down {
+                            transform: rotate(40deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+@include qodefScreenSize1024 {
+	.qodef-holder-with-image {
+		.qodef-m-image {
+			width: auto!important;
+		}
+		.qodef-m-content {
+			margin-left: 25%!important;
+			width: 75%!important;
+		}
+		&.qodef-layout--image-right {
+			.qodef-m-content {
+				margin-left: 0!important;
+			}
+		}
+	}
+}
+
+@mixin responsive-common {
+	padding: 0;
+	
+	.qodef-m-image {
+		position: relative;
+		height: auto;
+		width: 100%!important;
+		left: 0;
+		right: 0;
+	}
+	.qodef-m-content {
+		width: 100%!important;
+		margin: 0 !important;
+		padding: 30px 18px !important;
+	}
+}
+
+@include qodefScreenSize1024 {
+	
+	.qodef-holder-with-image.qodef-disable-below--1024 {
+		@include responsive-common;
+	}
+}
+
+@include qodefScreenSize768 {
+	
+	.qodef-holder-with-image.qodef-disable-below--768 {
+		@include responsive-common;
+	}
+}

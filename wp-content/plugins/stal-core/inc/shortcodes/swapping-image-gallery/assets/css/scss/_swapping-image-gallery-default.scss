@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Swapping image gallery shortcode style - begin
+   ========================================================================== */
+
+.qodef-swapping-image-gallery {
+	position:relative;
+	overflow: hidden;
+	display: flex;
+	align-items: flex-start;
+	
+	.qodef-m-info {
+		//flex-grow: 1;
+		//flex-basis: 0;
+	}
+	
+	.qodef-m-image-holder {
+		//flex-grow: 1;
+		//flex-basis: 0;
+		width: 61%;
+		margin-left: 39%;
+		overflow: hidden;
+		box-shadow: 0 0 10.53px 2.47px rgba(2, 2, 2, 0.04);
+	}
+	
+	.qodef-m-info {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 56%;
+		padding: 70px 8%;
+		background-color: #fff;
+		z-index: 90;
+	}
+	
+	.qodef-m-title {
+		margin: 0 0 42px;
+	}
+	
+	.qodef-m-title-wrap {
+		position: relative;
+	}
+	
+	&.qodef-title-with-tagline {
+		.qodef-m-title-tagline {
+			margin: 0;
+			color: $main-color;
+			line-height: 1em;
+			display: flex;
+			justify-content: flex-end;
+			position: absolute;
+			left: 11px;
+			bottom: 8px;
+			transform-origin: 1% 100%;
+			transform: rotate(270deg) translateY(0);
+		}
+		.qodef-m-title,
+		.qodef-m-description {
+			padding-left: 26px;
+		}
+	}
+	
+	.qodef-m-thumbnails-holder {
+		
+		.swiper-pagination-custom {
+			width: auto;
+		}
+		
+		.qodef-m-thumbnail {
+			font-size: 0;
+			cursor: pointer;
+
+			.qodef-m-thumbnail-wrapper {
+				position: relative;
+			}
+			
+			img {
+				display: block;
+
+				&.qodef-hover-image {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: auto;
+					opacity: 0;
+					will-change: opacity;
+					transition: opacity .15s ease-out;
+				}
+			}
+			
+			&.qodef--active {
+
+				img {
+					&.qodef-hover-image {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Swapping image gallery shortcode style - end
+   ========================================================================== */

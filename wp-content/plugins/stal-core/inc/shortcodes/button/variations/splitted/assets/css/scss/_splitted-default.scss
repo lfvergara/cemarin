@@ -1,0 +1,64 @@
+.qodef-button {
+
+    &.qodef-layout--splitted {
+        @include qodefButtonSplittedColor();
+
+        .qodef-m-text {
+            z-index: 2;
+        }
+
+        .qodef-m-split {
+            position: absolute;
+            height: 50%;
+            width: 0;
+            background: $heading-color;
+            z-index: 1;
+            transition: .3s cubic-bezier(.785,.135,.15,.86);
+        }
+
+        .qodef-split--up {
+            top: 0;
+            left: 0;
+            right: auto;
+        }
+
+        .qodef-split--down {
+            bottom: 0;
+            right: 0;
+            left: auto;
+        }
+
+        &:hover {
+            @include qodefButtonSplittedHoverColor();
+
+            .qodef-m-text {
+
+                .qodef-m-arrowline {
+
+                    .arrow-up,
+                    .arrow-down {
+                        opacity: 0;
+                        transform: rotate(-40deg);
+                        transition: transform .3s ease, opacity .1s ease .1s;
+                    }
+
+                    .arrow-down {
+                        transform: rotate(40deg);
+                    }
+                }
+            }
+
+            .qodef-split--up {
+                width: 100%;
+                right: 0;
+                left: auto;
+            }
+
+            .qodef-split--down {
+                width: 100%;
+                left: 0;
+                right: auto;
+            }
+        }
+    }
+}

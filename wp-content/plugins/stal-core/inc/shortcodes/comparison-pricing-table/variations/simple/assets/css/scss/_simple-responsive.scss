@@ -1,0 +1,126 @@
+@include qodefScreenSize1440() {
+	.qodef-comparision-pricing-table {
+
+		.qodef-m-features .qodef-m-features-title {
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+
+		.qodef-m-table .qodef-m-content div.qodef-m-features-item {
+			padding-left: 50px;
+		}
+	}
+}
+
+@include qodefScreenSize1024() {
+	.qodef-comparision-pricing-table {
+		
+		&.qodef-columns--2 {
+			.qodef-m-table {
+				margin-bottom: -1px;
+			}
+		}
+
+		.qodef-m-table{
+			.qodef-m-table-head {
+				padding: 0 10%;
+			}
+
+			.qodef-m-content div.qodef-m-features-item {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+
+			.qodef-m-footer {
+				height: 65px;
+			}
+		}
+
+		.qodef-m-features .qodef-m-features-title {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.qodef-button{
+			padding: 8px 17px;
+
+			.qodef-m-text:after {
+				display: none;
+			}
+		}
+	}
+}
+
+@include qodefScreenSize768() {
+	.qodef-comparision-pricing-table {
+		&.qodef-columns--2 {
+			.qodef-m-table {
+				width: 100%;
+			}
+
+			.qodef-m-table-head,
+			.qodef-m-content {
+				border-left: 1px solid #e1e5fa !important;
+			}
+		}
+
+		.qodef-m-table{
+			.qodef-m-content li {
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+@include qodefScreenSize680() {
+	.qodef-comparision-pricing-table {
+		padding-bottom: 10px;
+
+		&:before {
+			content: "<<\00a0  swipe  \00a0>>";
+			position: absolute;
+			top: -30px;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 15px;
+			font-weight: 400;
+		}
+		&.qodef-columns--3 {
+			overflow-x: scroll;
+			overflow-y: hidden;
+			display: flex;
+
+			.qodef-m-features {
+				min-width: 150px !important;
+				width: auto;
+			}
+
+			.qodef-m-table {
+				min-width: 130px;
+				margin-bottom: -1px;
+				flex: auto;
+			}
+		}
+
+		.qodef-m-table{
+			.qodef-m-content {
+				span.qodef-m-features-item {
+					line-height: 20px;
+					display: flex;
+					align-items: center;
+				}
+			}
+		}
+
+		.qodef-m-features{
+			.qodef-m-features-title {
+				padding: 5px 20px;
+			}
+
+			.qodef-m-content li,
+			.qodef-m-footer {
+				padding: 10px 20px;
+			}
+		}
+	}
+}

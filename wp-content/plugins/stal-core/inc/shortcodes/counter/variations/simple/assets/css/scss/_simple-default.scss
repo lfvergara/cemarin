@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Counter shortcode styles
+   ========================================================================== */
+
+.qodef-counter.qodef-layout--simple {
+	text-align: center;
+	
+	.qodef-m-digit-wrapper {
+		position: relative;
+		display: inline-block;
+	}
+
+	.qodef-m-digit {
+		font-family: $heading-font;
+		font-weight: 600;
+		color: $heading-color;
+		font-size: 85px;
+		line-height: 1em;
+	}
+
+	.qodef-m-title {
+		position: absolute;
+		left: -20px;
+		bottom: 0px;
+		writing-mode: tb-rl;
+		transform: rotate(-180deg);
+	}
+	
+	p.qodef-m-title {
+		font-weight: 400;
+		font-size: 13px;
+		letter-spacing: 0.045em;
+		text-transform: uppercase;
+	}
+
+	.qodef-m-text {
+		margin: 0;
+	}
+}

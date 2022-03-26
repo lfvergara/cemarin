@@ -1,0 +1,14 @@
+@include qodefScreenSize1024{
+    .qodef-porfolio-single-layout--gallery-big .qodef-portfolio-single-item {
+        .qodef-portfolio-info{
+            margin-top: 38px!important;
+        }
+    }
+}
+@include qodefScreenSize680 {
+    .qodef-porfolio-single-layout--gallery-big .qodef-portfolio-single-item {
+        .qodef-grid.qodef-gutter--normal.qodef--no-bottom-space {
+            margin-bottom: 0;
+        }
+    }
+}

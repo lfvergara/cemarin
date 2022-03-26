@@ -1,0 +1,112 @@
+.qodef-interactive-banners{
+    
+    @include qodefScreenSize1024 {
+        height: auto;
+
+        &.qodef-ib-full-height {
+            height: auto;
+        }
+
+        &.qodef-ib-fixed-height{
+            height: auto !important;
+        }
+        
+        .qodef-ib-images-holder{
+            display: none;
+        }
+        
+        .qodef-ib-grid{
+            display: none;
+        }
+
+        .qodef-ib-content-holder{
+            display: block;
+            position: relative;
+            height: auto;
+
+            .qodef-ib-image-holder-responsive{
+                display: block;
+                height: 80vh;
+    
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+            }
+
+            .qodef-ib-item{
+                display: block;
+                width: 100%;
+                height: 80vh;
+                padding: 0;
+    
+                .qodef-ib-item-tag {
+                    display: none;
+                }
+
+				.qodef-ib-item-inner{
+                    position: absolute;
+                    left: 48px;
+                    bottom: 53px;
+                    width: auto;
+                    height: auto;
+					
+					.qodef-ib-item-title,
+                    .qodef-ib-item-subtitle,
+                    .qodef-ib-item-btn-holder,
+                    .qodef-ib-item-small-image {
+						opacity: 1 !important;
+						transform: translateY(0) !important;
+					}
+				}
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+    .qodef-interactive-banners .qodef-ib-content-holder .qodef-ib-item{
+        .qodef-ib-item-inner{
+            left: 30px;
+        }
+
+        .qodef-ib-number-holder{
+            left: -15%;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .qodef-interactive-banners .qodef-ib-content-holder .qodef-ib-item{
+        .qodef-ib-item-inner{
+            left: 20px;
+
+            .qodef-ib-item-title{
+                margin: 0 0 20px;
+
+                h2{
+                    font-size: 28px;
+                }
+            }
+        }
+
+        .qodef-ib-number-holder{
+            left: -17%;
+        }
+
+    }
+
+    .qodef-ib-number-holder{
+        .qodef-ib-number{
+            font-size: 50vw;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Blog List Simple styles
+   ========================================================================== */
+
+.qodef-blog {
+	
+	&.qodef-item-layout--simple {
+		
+		article {
+
+			&.format-standard.has-post-thumbnail {
+
+				a {
+
+					&:hover {
+
+						img {
+							transform: translateX(3px) scale(1.07);
+						}
+					}
+
+					img {
+						transform: translateX(0) scale(1.07);
+						transition: transform .5s cubic-bezier(0.29, 0.21, 0, 0.97);
+					}
+				}
+			}
+			
+			.qodef-e-inner {
+				display: flex;
+				align-items: center;
+
+				.qodef-e-info-item {
+					line-height: 1em;
+				}
+			}
+			
+			.qodef-e-media-image {
+				flex-shrink: 0;
+				width: 81px;
+				margin: 0 19px 0 0;
+				overflow: hidden;
+			}
+
+			.qodef-e-title {
+				a {
+					color: $heading-color;
+
+					&:hover {
+						color: $main-color;
+					}
+				}
+			}
+
+			.qodef-e-info-date {
+				a {
+					font-size: 13px;
+					font-weight: 400;
+					text-transform: uppercase;
+					color: $text-color;
+					position: relative;
+					display: inline-block;
+					padding-bottom: 5px;
+
+					&:hover {
+						color: $heading-color;
+
+						&:before {
+							width: 100%;
+							transform: scaleX(1);
+						}
+					}
+
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						bottom: 5px;
+						top: auto;
+						width: 100%;
+						height: 1px;
+						background-color: currentColor;
+						transform: scaleX(0);
+						transform-origin: 0 0;
+						transition: transform .3s cubic-bezier(.785,.135,.15,.86), background-color 0s ease;
+					}
+				}
+			}
+		}
+	}
+}

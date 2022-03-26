@@ -1,0 +1,125 @@
+/* ==========================================================================
+   Pricing Table shortcode styles
+   ========================================================================== */
+
+.qodef-pricing-table {
+	@include qodefRelativeLayout();
+	text-align: center;
+
+	&.qodef-status--featured {
+		.qodef-m-inner {
+			box-shadow: 0 0 33.2px 6.8px rgba(161, 181, 203, 0.18);
+		}
+	}
+	
+	.qodef-m-inner {
+		padding: 67px 30px 80px;
+		text-align: left;
+		position: relative;
+		display: inline-block;
+		margin: auto;
+
+		@include qodefScreenSize1440 {
+			padding: 67px 30px 80px;
+		}
+
+		@include qodefScreenSize1366 {
+			padding: 67px 30px 80px 42px;
+		}
+
+		@include qodefScreenSize1024 {
+			text-align: center;
+		}
+
+		@include qodefScreenSize680 {
+			padding: 30px;
+		}
+	}
+
+	.qodef-m-title {
+		position: absolute;
+		display: inline-block;
+		font-size: 13px;
+		font-weight: 400;
+		top: 80px;
+
+		@include qodefScreenSize680 {
+			top: 50px;
+		}
+
+		p {
+			margin: 0;
+			color: $main-color;
+			line-height: 1em;
+			transform: rotate(-90deg);
+			display: flex;
+			justify-content: flex-end;
+			background-color: #f2f3f5;
+			transform-origin: 38px 39px;
+			padding: 4px 10px;
+		}
+	}
+	
+	.qodef-m-price {
+		display: inline-block;
+		margin: -3px 0 24px 25px;
+		
+		.qodef-m-price-wrapper {
+			display: flex;
+			margin: 0;
+			line-height: 1;
+			font-size: 80px;
+
+			.qodef-m-price-currency {
+				font-size: 30px;
+				position: relative;
+				top: 10px;
+			}
+		}
+
+		.qodef-m-price-period {
+			margin: 0 0 0 8px;
+			letter-spacing: .02em;
+		}
+	}
+	
+	.qodef-m-content {
+		margin: 13px 0 0;
+		position: relative;
+
+		.qodef-m-table-icon {
+			position: absolute;
+
+			&:before {
+				content: '';
+				position: relative;
+				width: 6px;
+				height: 6px;
+				top: -1px;
+				display: inline-block;
+				background-color: #ee0d08;
+			}
+		}
+
+		.qodef-m-text {
+			display: inline-block;
+			padding-left: 17px;
+			font-size: 13px;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: .045em;
+			color: $heading-color;
+		}
+	}
+	
+	.qodef-m-button {
+		
+		.qodef-button {
+			margin: 33px 0 0;
+
+			@include qodefScreenSize1366 {
+				padding: 16px 26px 17px 27px;
+			}
+		}
+	}
+}

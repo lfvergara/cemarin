@@ -1,0 +1,6 @@
+2022-03-26T10:32:33+00:00 CRITICAL Out of memory (allocated 96468992) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-includes/functions.php on line 642
+
+2022-03-26T10:32:34+00:00 CRITICAL Out of memory (allocated 48234496) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-includes/functions.php on line 642
+
+2022-03-26T10:32:34+00:00 CRITICAL Out of memory (allocated 83886080) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-includes/pomo/streams.php on line 125
+

@@ -1,0 +1,2 @@
+2022-03-12T07:22:17+00:00 CRITICAL Out of memory (allocated 77594624) (tried to allocate 32768 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/dual-image-with-content/class-qiaddonsforelementor-dual-image-with-content-shortcode.php on line 384
+

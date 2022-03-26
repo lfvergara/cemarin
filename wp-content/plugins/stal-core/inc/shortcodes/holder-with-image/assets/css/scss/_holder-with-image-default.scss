@@ -1,0 +1,86 @@
+/* ==========================================================================
+   Holder With Image shortcode styles
+   ========================================================================== */
+
+.qodef-holder-with-image {
+	position: relative;
+	padding: 115px 0 95px;
+	
+	.qodef-m-image {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: auto;
+		height: 100%;
+	}
+	.qodef-m-content {
+		position: relative;
+		margin-left: 38%;
+		width: 62%;
+		background-color: #fff;
+		padding: 100px 8% 100px 7%;
+		z-index: 20;
+		box-sizing: border-box;
+	}
+	
+	&.qodef-layout--image-right {
+		.qodef-m-image {
+			left: auto;
+			right: 0;
+		}
+		.qodef-m-content {
+			padding: 100px 7% 100px 8%;
+			margin-left: 0;
+		}
+	}
+
+	&.qodef-appear-animation-enabled--from-left {
+
+		.qodef-m-content {
+			-webkit-clip-path: inset(0 100% 0 0);
+			clip-path: inset(0 100% 0 0);
+			transition: clip-path .75s cubic-bezier(.785,.135,.15,.86);
+
+			&.qodef-appear {
+				-webkit-clip-path: inset(0 0 0 0);
+				clip-path: inset(0 0 0 0);
+
+				> div {
+					opacity: 1;
+					transform: translateY(0);
+				}
+			}
+
+			> div {
+				opacity: 0;
+				transform: translateY(10%);
+				transition: transform .5s cubic-bezier(0.29, 0.21, 0, 0.97) .5s, opacity .4s cubic-bezier(0.29, 0.21, 0, 0.97) .5s;
+			}
+		}
+	}
+
+	&.qodef-appear-animation-enabled--from-right {
+
+		.qodef-m-content {
+			-webkit-clip-path: inset(0 0 0 100%);
+			clip-path: inset(0 0 0 100%);
+			transition: clip-path .75s cubic-bezier(.785,.135,.15,.86);
+
+			&.qodef-appear {
+				-webkit-clip-path: inset(0 0 0 0);
+				clip-path: inset(0 0 0 0);
+
+				> div {
+					opacity: 1;
+					transform: translateY(0);
+				}
+			}
+
+			> div {
+				opacity: 0;
+				transform: translateY(10%);
+				transition: transform .5s cubic-bezier(0.29, 0.21, 0, 0.97) .5s, opacity .4s cubic-bezier(0.29, 0.21, 0, 0.97) .5s;
+			}
+		}
+	}
+}

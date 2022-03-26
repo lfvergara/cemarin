@@ -1,0 +1,36 @@
+.qodef-button {
+
+    &.qodef-layout--textual {
+        padding: 0 !important;
+        font-size: 15px;
+        color: $heading-color;
+        background-color: transparent;
+        border: 0;
+
+        .qodef-m-text {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        &:hover {
+            color: $heading-color;
+
+            .qodef-m-text {
+
+                .qodef-m-arrowline {
+
+                    .arrow-up,
+                    .arrow-down {
+                        opacity: 0;
+                        transform: rotate(-40deg);
+                        transition: transform .3s ease, opacity .1s ease .1s;
+                    }
+
+                    .arrow-down {
+                        transform: rotate(40deg);
+                    }
+                }
+            }
+        }
+    }
+}

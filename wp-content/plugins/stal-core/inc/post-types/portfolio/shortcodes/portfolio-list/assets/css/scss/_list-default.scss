@@ -1,0 +1,39 @@
+.qodef-portfolio-list {
+ 
+	&.qodef-items--fixed {
+  
+		.qodef-e-image {
+			//because of the custom padding around item
+			height: 100%;
+			overflow: hidden;
+		}
+		
+		.qodef-e-media-image {
+			height: 100%;
+			
+			a {
+				height: 100%;
+				
+				@include qodefRelativeLayout();
+			}
+		}
+	}
+	
+	.qodef-e-info-category {
+		line-height: 1.08em;
+		margin: 6px 0 0;
+		a {
+			@include qodefH6Style();
+			color: $main-color;
+			text-transform: uppercase;
+			font-family: $text-font;
+			font-size: 13px;
+			font-weight: 400;
+			letter-spacing: 0.02em;
+		}
+	}
+	
+	.qodef--load-more {
+		margin-top: 35px;
+	}
+}

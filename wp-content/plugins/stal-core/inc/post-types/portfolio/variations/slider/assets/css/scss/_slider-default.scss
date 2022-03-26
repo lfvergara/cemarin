@@ -1,0 +1,29 @@
+.qodef-porfolio-single-layout--slider .qodef-portfolio-single-item {
+	
+	.qodef-portfolio-info{
+		padding-left: 8%;
+		margin-top: 16px !important;
+		
+		@include qodefScreenSize1024 {
+			padding-left: 15px;
+		}
+		
+		.qodef-e {
+			display: inline-block;
+			width: 40%;
+			vertical-align: top;
+			
+			@include qodefScreenSize1024 {
+				width: 100%;
+			}
+		}
+	}
+	
+	.qodef-media{
+		margin-bottom: 32px;
+	}
+	
+	.swiper-pagination-bullets .swiper-pagination-bullet:after {
+		background-color: #fff;
+	}
+}

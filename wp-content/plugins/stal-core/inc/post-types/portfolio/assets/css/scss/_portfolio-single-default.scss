@@ -1,0 +1,187 @@
+.single-portfolio .qodef-page-content-section.qodef-grid-item{
+    margin: 0 !important;
+}
+
+.qodef-portfolio-single-item {
+    .qodef-portfolio-title{
+        margin: 0 0 15px;
+    }
+
+    .qodef-portfolio-info{
+        .qodef-e{
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            flex-direction: column;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+
+        h6{
+            margin: 0 0 6px 0;
+        }
+
+        p,a{
+            margin: 0;
+            color: $text-color;
+        }
+        
+        a:not(.qodef-share-link):hover {
+            color: $main-color;
+        }
+    }
+
+    .qodef-portofolio-categories .qodef-portfolio-category{
+        &:after {
+            content: "/";
+            margin: 0 3px 0 1px;
+        }
+
+        &:last-child:after{
+            display: none;
+        }
+    }
+}
+
+.qodef-porfolio-single-layout--gallery-small,
+.qodef-porfolio-single-layout--images-small,
+.qodef-porfolio-single-layout--masonry-small{
+    .qodef-portfolio-info{
+        margin-top: 48px;
+    }
+
+}
+
+/* ==========================================================================
+   Portfolio Single navigation style - begin
+   ========================================================================== */
+
+.qodef-ps-related-posts-holder {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin: 30px 0 0;
+    clear: both;
+    
+    .qodef-ps-related-inner {
+        margin: 0 -15px;
+    }
+    
+    .qodef-ps-related-post {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        width: 25%;
+        float: left;
+        padding: 0 15px;
+        box-sizing: border-box;
+    
+        @include qodefScreenSize1024 {
+            width: 50%;
+            margin-bottom: 30px;
+            
+            &:nth-child(2n+1) {
+                clear: both;
+            }
+        }
+	    
+	    @include qodefScreenSize680 {
+		    width: 100%;
+	    }
+    
+        @mixin qodefScreenSize680 {
+            width: 100%;
+        }
+	    
+	    &:hover{
+
+            .qodef-ps-related-text {
+                clip-path: inset(0 0 0 0);
+                -webkit-clip-path: inset(0 0 0 0);
+                transition: clip-path .3s cubic-bezier(0.63, 0.24, 0.26, 0.91) .1s;
+            }
+
+            .qodef-ps-related-categories,
+            .qodef-ps-related-title {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .qodef-ps-related-image:after {
+                transition: width .2s cubic-bezier(0.63, 0.24, 0.26, 0.91);
+                width: 100%;
+            }
+	    }
+    }
+    
+    .qodef-ps-related-image {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+        
+        a, img {
+            display: block;
+        }
+
+        a {
+            overflow: hidden;
+
+            &:hover {
+
+                img {
+                    transform: scale(1.05) translateX(5px);
+                }
+            }
+        }
+
+        img {
+            transform: scale(1.05) translateX(0);
+            transition: transform .5s cubic-bezier(.29,.21,0,.97);
+        }
+    
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 60px;
+            height: 1px;
+            width: 0;
+            background: #fff;
+            transition: width .2s .2s;
+        }
+    }
+    
+    .qodef-ps-related-text {
+        position: absolute;
+        width: calc(100% - 54px);
+        left: 27px;
+        bottom: 12px;
+        padding: 12px;
+        background-color: #fff;
+        clip-path: inset(0 100% 0 0);
+        -webkit-clip-path: inset(0 100% 0 0);
+        transition: clip-path .3s cubic-bezier(.785,.135,.15,.86) 0s;
+        
+        .qodef-ps-related-title {
+            margin: 0;
+            opacity: 0;
+            transform: translateY(30%);
+            transition: transform .3s cubic-bezier(0.29, 0.21, 0, 0.97) .2s, opacity .2s cubic-bezier(0.29, 0.21, 0, 0.97) .2s;
+        }
+        
+        .qodef-ps-related-categories {
+            margin: 6px 0 0;
+            color: $main-color;
+            opacity: 0;
+            transform: translateY(30%);
+            transition: transform .3s cubic-bezier(0.29, 0.21, 0, 0.97) .2s, opacity .2s cubic-bezier(0.29, 0.21, 0, 0.97) .2s;
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio Single navigation style - end
+   ========================================================================== */

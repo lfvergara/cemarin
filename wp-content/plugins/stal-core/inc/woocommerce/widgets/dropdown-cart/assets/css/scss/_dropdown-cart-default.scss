@@ -1,0 +1,257 @@
+/* ==========================================================================
+   WooCommerce DropDown Cart styles
+   ========================================================================== */
+
+$wp-widgets-area-map: (
+	'#qodef-page-sidebar': (
+		text-color: null,
+		link-color: null,
+		link-hover-color: null
+	),
+	'#qodef-top-area': (
+		text-color: $text-color,
+		link-color: $text-color,
+		link-hover-color: $main-color,
+	)
+);
+
+.widget_stal_core_woo_dropdown_cart {
+	height: 100%;
+}
+
+.qodef-woo-dropdown-cart {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	padding: 0 10px;
+	
+	.qodef-m-inner {
+		@include qodefRelativeLayout();
+		height: 100%;
+	}
+	
+	.qodef-m-opener {
+		position: relative;
+		display: flex;
+		align-items: center;
+		height: 100%;
+		font-size: 30px;
+
+		.qodef-header--light & {
+			color: #fff;
+		}
+
+		.qodef-m-opener-count {
+			width: 18px;
+			height: 18px;
+			background-color: $main-color;
+			color: #fff;
+			text-align: center;
+			line-height: 18px;
+			font-size: 12px;
+			position: relative;
+			top: -10px;
+			left: -10px;
+		}
+	}
+	
+	.qodef-m-dropdown {
+		position: absolute;
+		top: 100%;
+		left: auto;
+		right: 0;
+		text-align: left;
+		opacity: 0;
+		visibility: hidden;
+		transition: $opacity-transition, visibility $transition-timing;
+	}
+	
+	.qodef-m-dropdown-inner {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		width: 278px;
+		padding: 40px 28px 30px 28px;
+		background-color: #fff;
+		box-shadow: 0 0 21.12px 2.88px rgba(96, 96, 96, 0.1);
+
+		.qodef-m-posts-not-found {
+			font-size: 15px;
+		}
+	}
+	
+	.qodef-woo-dropdown-items {
+		@include qodefRelativeLayout();
+		
+		@each $key, $values in $wp-widgets-area-map {
+			
+			#{$key} & {
+				@if (map-get($values, 'text-color') != null) {
+					color: map-get($values, 'text-color');
+				}
+				
+				@if (map-get($values, 'link-color') != null) {
+					a {
+						color: map-get($values, 'link-color');
+						
+						@if (map-get($values, 'link-hover-color') != null) {
+							&:hover {
+								color: map-get($values, 'link-hover-color');
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.qodef-woo-dropdown-item {
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin-top: 15px;
+		
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	
+	.qodef-e-image {
+		flex-shrink: 0;
+		width: 55px;
+		margin-right: 8px;
+		
+		a, img {
+			display: block;
+		}
+	}
+	
+	.qodef-e-content {
+		@include qodefRelativeLayout();
+		padding-right: 20px;
+	}
+	
+	.qodef-e-title {
+		margin: 0;
+
+		a {
+			color: $heading-color;
+
+			&:hover {
+				color: $main-color;
+			}
+		}
+	}
+	
+	.qodef-e-price {
+		margin: 0;
+		color: $heading-color;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 1.6em;
+	}
+	
+	.qodef-e-quantity {
+		margin: 3px 0 0;
+		font-size: 15px;
+		background-color: $main-color;
+		font-weight: 400;
+		color: #fff;
+		width: 25px;
+		height: 25px;
+		text-align: center;
+		line-height: 25px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	
+	.qodef-e-remove {
+		position: absolute;
+		top: -20px;
+		right: 0;
+		font-size: 30px;
+		line-height: 1;
+		color: $heading-color;
+	}
+	
+	.qodef-m-order-details {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 17px;
+		padding-top: 9px;
+
+		&:before {
+			content: '';
+			height: 1px;
+			width: 100%;
+			background-color: $border-color;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		
+		> * {
+			margin: 0;
+		}
+
+		.qodef-m-order-amount,
+		.qodef-m-order-label {
+			color: $main-color;
+			font-size: 13px;
+			font-weight: 400;
+		}
+		
+		@each $key, $values in $wp-widgets-area-map {
+			
+			#{$key} & {
+				@if (map-get($values, 'text-color') != null) {
+					color: map-get($values, 'text-color');
+				}
+			}
+		}
+	}
+	
+	.qodef-m-action {
+		@include qodefRelativeLayout();
+		margin-top: 8px;
+	}
+	
+	.qodef-m-action-link {
+		@include qodefButtonDefaultStyle();
+		@include qodefButtonSize(full-width);
+		@include qodefButtonFilledColor();
+		padding: 17px 20px;
+
+		&:after {
+			content: '';
+			height: 1px;
+			width: 35px;
+			position: relative;
+			background-color: currentColor;
+			display: inline-block;
+			left: 22px;
+			top: -4px;
+			margin-right: 22px;
+		}
+		
+		&:hover {
+			@include qodefButtonFilledHoverColor();
+		}
+	}
+	
+	.touchevents & {
+		cursor: pointer;
+	}
+	
+	&:hover {
+		
+		.qodef-m-dropdown {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}

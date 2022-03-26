@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Image With Text shortcode styles
+   ========================================================================== */
+
+.qodef-image-with-text {
+	@include qodefRelativeLayout();
+	
+	.qodef-m-image {
+		@include qodefRelativeLayout();
+		transition: box-shadow .3s cubic-bezier(.785,.135,.15,.86);
+		
+		a, img {
+			display: block;
+		}
+	}
+	
+	.qodef-m-content {
+		@include qodefRelativeLayout();
+	}
+	
+	.qodef-m-title {
+		position: relative;
+		margin: 31px 0 0;
+		padding-left: 0;
+		transition: padding-left .2s ease-out, color .15s ease-out;
+		
+		&:before {
+			content: '';
+			width: 0;
+			height: 1px;
+			background-color: currentColor;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transition: width .2s ease-out;
+		}
+	}
+	
+	.qodef-m-text {
+		margin: 15px 0 0;
+	}
+	
+	&.qodef--shadow-enabled {
+		.qodef-m-image {
+			box-shadow: 0px -3px 10px 0px rgba(242, 243, 245, 1);
+		}
+		.qodef-m-image:hover {
+			box-shadow: 0px 0px 16.240000000000002px 11.76px rgba(161, 181, 203, 0.25);
+		}
+	}
+	
+	&.qodef--with-link {
+		.qodef-m-image:hover {
+			+ .qodef-m-content {
+				.qodef-m-title {
+					padding-left: 40px;
+					color: $main-color;
+					
+					&:before {
+						width: 32px;
+					}
+				}
+			}
+		}
+		
+		.qodef-m-title:hover {
+			padding-left: 40px;
+			color: $main-color;
+			
+			&:before {
+				width: 32px;
+			}
+		}
+	}
+}

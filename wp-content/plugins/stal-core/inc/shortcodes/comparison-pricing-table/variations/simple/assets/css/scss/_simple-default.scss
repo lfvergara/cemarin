@@ -1,0 +1,197 @@
+/* ==========================================================================
+   Comparison Pricing table shortcode styles
+   ========================================================================== */
+
+.qodef-comparision-pricing-table {
+	font-size: 15px;
+	color: $heading-color;
+
+	&:before,
+	&:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+	}
+
+	& {
+		*zoom: 1;
+	}
+
+
+	.qodef-m-list {
+		list-style-type: none;
+		margin: 0;
+	}
+
+	h4, p {
+		margin: 0;
+	}
+
+	&.qodef-columns--2 {
+		.qodef-m-table {
+			width: 30%;
+
+			&.qodef-m-features {
+				width: 40%;
+			}
+		}
+	}
+
+	&.qodef-columns--3 {
+		.qodef-m-table {
+			width: 23.333%;
+
+			&.qodef-m-features {
+				width: 30%;
+			}
+		}
+	}
+	
+	.qodef-m-table {
+		float: left;
+		border-right: none;
+		border-left: none;
+		
+		&:not(.qodef-m-features) {
+			text-align: center;
+			font-size: 11px;
+			font-family: $heading-font;
+			
+			
+			.qodef-m-features-item {
+				line-height: 50px;
+				
+				span {
+					line-height: 50px;
+				}
+			}
+		}
+		
+		.qodef-m-content {
+			border-right: 1px solid #e4e4e4;
+
+			&:not(.qodef-m-features-list) {
+				>span {
+					display: block;
+					height: 75px;
+					line-height: 75px;
+					border-bottom: 1px solid #e4e4e4;
+				}
+			}
+		}
+		
+		.qodef-m-table-head {
+			display: table;
+			height: 112px;
+			width: 100%;
+			padding: 10px 20%;
+			border: 1px solid #e4e4e4;
+			border-left: none;
+			background-image: url("../../inc/shortcodes/comparison-pricing-table/assets/img/pattern_dark.png");
+			
+			.qodef-m-table-head-inner {
+				display: table-cell;
+				vertical-align: middle;
+			}
+			
+			.qodef-m-title {
+				margin-top: 5px;
+				margin-bottom: 5px;
+				word-break: break-word;
+			}
+		}
+		
+		.qodef-m-content {
+			.qodef-m-features-item {
+				height: 75px;
+				border-bottom: 1px solid #e4e4e4;
+				font-weight: 400;
+				color: $text-color;
+				list-style: none;
+				
+				&.qodef-m-features-item {
+					font-weight: 400;
+					line-height: 56px;
+					
+					h6 {
+						margin: 0;
+						display: inline-block;
+						vertical-align: middle;
+					}
+				}
+			}
+		}
+		
+		.qodef-m-footer {
+			height: 115px;
+			border: 1px solid #e4e4e4;
+			border-top: none;
+			border-left: none;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			overflow: hidden;
+			
+			.qodef-btn.qodef-btn-simple {
+				color: $heading-color !important;
+				@include qodefH5Style();
+				font-family: $heading-font;
+				font-weight: 500;
+				
+				&:hover {
+					color: $main-color !important;
+				}
+			}
+		}
+	}
+
+	.qodef-m-features {
+		text-align: left;
+
+		.qodef-m-features-list {
+			border-right: none !important;
+
+			div.qodef-m-list {
+				border-left: 1px solid #e4e4e4;
+				border-right: 1px solid #e4e4e4;
+			}
+			
+			.qodef-m-features-item {
+				padding: 10px 27px 10px 80px;
+				display: block;
+				
+				span {
+					display: block;
+					position: relative;
+					top: 50%;
+					transform:translateY(-50%);
+				}
+			}
+		}
+
+		.qodef-m-features-title {
+			padding: 5px 27px 5px 80px;
+			border-left: 1px solid #e4e4e4;
+
+			.qodef-m-title {
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+		}
+		
+		.qodef-m-footer {
+			padding: 10px 27px;
+			@include qodefHeadingStyle(h5);
+			font-family: $heading-font;
+			color: $main-color;
+			font-weight: 500;
+			line-height: 114px;
+			border-left: 1px solid #e4e4e4;
+			display: table;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			background-image: url("../../inc/shortcodes/comparison-pricing-table/assets/img/pattern_dark.png");
+		}
+	}
+}

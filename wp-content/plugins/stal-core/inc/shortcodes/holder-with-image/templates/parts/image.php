@@ -1,0 +1,1 @@
+<img class="qodef-m-image" src="<?php echo esc_url( wp_get_attachment_url( $image ) ); ?>" alt="<?php echo esc_attr(get_post_meta($image, '_wp_attachment_image_alt', TRUE)) ?>" <?php echo qode_framework_get_inline_style( $image_styles ); ?> />

@@ -1,0 +1,40 @@
+.qodef-contact-info {
+	position: relative;
+	
+	.qodef-m-vertical-text {
+		position: absolute;
+		left: -30px;
+		bottom: 10px;
+		font-weight: 300;
+		font-size: 13px;
+		color: $main-color;
+		letter-spacing: 0.045em;
+		text-transform: uppercase;
+		writing-mode: tb-rl;
+		transform: rotate(-180deg);
+	}
+	
+	.qodef-m-content {
+		display: flex;
+		align-items: center;
+		background-color: #f1f3f5;
+		padding: 5px;
+	}
+	
+	.qodef-m-info {
+		padding-left: 22px;
+		font-weight: 400;
+		
+		> div {
+			margin-bottom: 5px;
+			
+			span {
+				position: relative;
+				top: 2px;
+				color: $main-color;
+				font-size: 21px;
+				margin-right: 10px;
+			}
+		}
+	}
+}

@@ -1,0 +1,100 @@
+/* ==========================================================================
+   Progress Bar shortcode styles
+   ========================================================================== */
+
+.qodef-progress-bar {
+
+	.qodef-m-inner {
+		position: relative;
+		display: flex;
+	}
+
+	.progressbar {
+		position: relative;
+	}
+
+	.qodef-m-title {
+		margin: 20px 0 0;
+	}
+
+	&:not(.qodef-layout--line) {
+		.qodef-m-inner {
+			flex-direction: column;
+		}
+
+		.qodef-m-canvas {
+			@include qodefRelativeLayout();
+
+			svg {
+				display: block;
+			}
+		}
+
+		.progressbar-text {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0;
+			margin: 0;
+			@include qodefHeadingStyle('h4');
+		}
+	}
+	
+	.qodef-m-title {
+		margin: 20px 0 0;
+		font-weight: 400;
+	}
+	
+	&.qodef-layout--semi-circle {
+		
+		.progressbar-text {
+			padding-top: 20px;
+			transform: none !important;
+		}
+	}
+	
+	&.qodef-layout--line {
+		position: relative;
+
+		.qodef-m-inner {
+			flex-direction: column-reverse;
+		}
+		
+		.proggress {
+			width: 0;
+			position: relative;
+			overflow: visible !important;
+
+			&:after {
+				content: '';
+				position: absolute;
+				width: 1px;
+				height: 10px;
+				right: 0;
+				top: -3px;
+				background-color: currentColor;
+				opacity: 1;
+			}
+		}
+		
+		.percentCount {
+			position: absolute;
+			top: -30px;
+			right: 0;
+			width: auto;
+			height: auto;
+			font-size: 13px;
+			font-weight: 400;
+			color: #bf1818;
+		}
+		
+		.qodef-m-title {
+			margin: 0 0 7px;
+		}
+	}
+}

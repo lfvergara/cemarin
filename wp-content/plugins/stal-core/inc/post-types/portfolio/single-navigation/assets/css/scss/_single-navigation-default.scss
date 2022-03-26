@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Single Post Navigation styles
+   ========================================================================== */
+
+#qodef-single-portfolio-navigation {
+	@include qodefRelativeLayout();
+	margin: 100px 0 35px;
+
+	.qodef-m-inner {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.qodef-m-nav {
+		position: relative;
+		display: flex;
+		align-items: center;
+		
+		> * {
+			display: block;
+			line-height: inherit;
+		}
+
+		&.qodef--prev {
+			left: 0;
+			
+			.qodef-icon-linea-icons {
+				margin-right: 18px;
+			}
+		}
+		
+		&.qodef--next {
+			flex-direction: row-reverse;
+			right: 0;
+			text-align: right;
+			margin-left: auto;
+			
+			.qodef-icon-linea-icons {
+				margin-left: 18px;
+			}
+		}
+
+		&:hover {
+
+			.qodef-m-nav-label {
+				color: $main-color;
+			}
+		}
+	}
+	
+	.qodef--backbtn {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		a {
+			height: 23px;
+			
+			.qodef-circles {
+				position: relative;
+				width: 26px;
+				display: inline-block;
+				height: 26px;
+			}
+			.qodef-circle {
+				position: absolute;
+				width: 12px;
+				height: 12px;
+				background-color: #fff;
+				border-width: 1px;
+				border-style: solid;
+				border-color: $heading-color;
+				transition: border-color .2s ease-out;
+			}
+			.qodef-circle-1 {
+				top: 0;
+				left: 0;
+			}
+			.qodef-circle-2 {
+				top: 0;
+				right: 0;
+			}
+			.qodef-circle-3 {
+				bottom: 0;
+				left: 0;
+			}
+			.qodef-circle-4 {
+				bottom: 0;
+				right:0;
+			}
+
+			&:hover {
+
+				 .qodef-circle {
+					border-color: $main-color;
+				 }
+			}
+		}
+	}
+	
+	.qodef-icon-linea-icons {
+		font-size: 30px;
+	}
+	
+	.qodef-m-nav-label {
+		font-family: $text-font;
+		font-size: 13px;
+		font-weight: 400;
+		letter-spacing: 0.02em;
+		color: $heading-color;
+		text-transform: uppercase;
+		transition: color .2s ease-out;
+		
+		@include qodefScreenSize680 {
+			display: none;
+		}
+	}
+}

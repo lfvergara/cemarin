@@ -1,0 +1,79 @@
+.qodef-item-layout--info-on-hover.qodef-hover-animation--fade-in {
+
+	.qodef-e-content {
+		clip-path: inset(0 100% 0 0);
+		-webkit-clip-path: inset(0 100% 0 0);
+		transition: clip-path .3s cubic-bezier(.785,.135,.15,.86) 0s;
+	}
+
+	.qodef-e-info-category,
+	.qodef-e-title {
+		opacity: 0;
+		transform: translateY(30%);
+		transition: transform .3s cubic-bezier(0.29, 0.21, 0, 0.97) .2s, opacity .2s cubic-bezier(0.29, 0.21, 0, 0.97) .2s;
+	}
+
+	.qodef-browser--edge & {
+
+		.qodef-e-content {
+			clip-path: inset(0 0 0 0);
+			-webkit-clip-path: inset(0 0 0 0);
+			opacity: 0;
+			transition: opacity .3s ease-out 0s;
+		}
+
+		.qodef-e-info-category,
+		.qodef-e-title {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.qodef-e-image {
+
+		a {
+			display: block;
+			overflow: hidden;
+
+			&:hover {
+
+				img {
+					transform: translateX(5px) scale(1.05);
+				}
+			}
+		}
+
+		img {
+			transform: scale(1.05);
+			transition: transform .5s cubic-bezier(0.29, 0.21, 0, 0.97);
+		}
+	}
+
+	.qodef-e:hover {
+
+		.qodef-e-content {
+			clip-path: inset(0 0 0 0);
+			-webkit-clip-path: inset(0 0 0 0);
+			transition: clip-path .3s cubic-bezier(0.63, 0.24, 0.26, 0.91) .1s;
+		}
+
+		.qodef-e-info-category,
+		.qodef-e-title {
+			opacity: 1;
+			transform: translateY(0);
+		}
+
+		.qodef-browser--edge & {
+
+			.qodef-e-content {
+				opacity: 1;
+				transition: opacity .3s ease-out .1s;
+			}
+		}
+
+		.qodef-e-inner:after {
+			transition: width .2s cubic-bezier(0.63, 0.24, 0.26, 0.91);
+			width: 100%;
+		}
+	}
+}
