@@ -182,7 +182,7 @@
                         ?>
                                 <div style="margin-bottom: 42%;">
                                     <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/our-mission-and-vision/'">
-                                        OUR MISSION AND VISION
+                                        NUESTRA MISIÓN Y VISIÓN
                                     </button>
                                     <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/networks/'">
                                         CEMARIN NETWORKS
