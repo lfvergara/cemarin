@@ -300,7 +300,7 @@
                 </div>
             </div>
             <?php $j++; ?>
-            <?php if($j == 4){
+            <?php if($j == 5){
                 break;
             } ?>
         <?php } ?>
@@ -311,7 +311,7 @@
     ?>
     
     <div class="qodef-ib-grid">
-        <?php for( $k = 0; $k < 4; $k++ ) { ?>
+        <?php for( $k = 0; $k < 5; $k++ ) { ?>
             <div class="qodef-ib-grid-line">
                 <div class="qodef-ib-grid-vertical-line"></div>
             </div>
