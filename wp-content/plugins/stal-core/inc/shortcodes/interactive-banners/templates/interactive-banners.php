@@ -9,9 +9,7 @@
 
             </div>
             <?php 
-                if ($i < 4) {
-                    $i++; 
-                }
+                $i++; 
             ?>
             <?php if($i == $number_of_items_numeric){
                 break;
@@ -302,7 +300,7 @@
                 </div>
             </div>
             <?php $j++; ?>
-            <?php if($j == $number_of_items_numeric){
+            <?php if($j == 4){
                 break;
             } ?>
         <?php } ?>
