@@ -14,7 +14,7 @@
         <?php } ?>
     </div>
     <?php 
-        if ($j == 5) {
+        if ($i == 5) {
     ?>
     <!--INGLES-->
     <div class="qodef-ib-content-holder">
