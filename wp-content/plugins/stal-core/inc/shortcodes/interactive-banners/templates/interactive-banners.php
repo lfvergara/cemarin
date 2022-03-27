@@ -8,7 +8,11 @@
             <div class="qodef-ib-image-holder <?php if($i == 0) echo esc_attr('qodef-active'); ?>" style="background-image: url(<?php echo wp_get_attachment_url($item['item_image']); ?>)" data-index="<?php echo esc_attr($i);?>">
 
             </div>
-            <?php $i++; ?>
+            <?php 
+                if ($i < 4) {
+                    $i++; 
+                }
+            ?>
             <?php if($i == $number_of_items_numeric){
                 break;
             } ?>
