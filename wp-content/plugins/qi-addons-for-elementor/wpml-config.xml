@@ -335,15 +335,6 @@
                 <field>button_text</field>
             </fields>
         </widget>
-        <widget name="qi_addons_for_elementor_interactive_banner_spanish">
-            <fields>
-                <field>custom_class</field>
-                <field>title</field>
-                <field>subtitle</field>
-                <field>text_field</field>
-                <field>button_text</field>
-            </fields>
-        </widget>
         <widget name="qi_addons_for_elementor_interactive_link_showcase">
             <fields>
                 <field>custom_class</field>
