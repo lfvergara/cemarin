@@ -311,7 +311,7 @@
     ?>
     
     <div class="qodef-ib-grid">
-        <?php for( $k = 0; $k < $number_of_items_numeric; $k++ ) { ?>
+        <?php for( $k = 0; $k < 4; $k++ ) { ?>
             <div class="qodef-ib-grid-line">
                 <div class="qodef-ib-grid-vertical-line"></div>
             </div>
