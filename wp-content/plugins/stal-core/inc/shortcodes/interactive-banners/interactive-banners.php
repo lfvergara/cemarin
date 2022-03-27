@@ -18,7 +18,7 @@ if ( ! function_exists( 'stal_core_add_interactive_banners_shortcode' ) ) {
 }
 
 if ( class_exists( 'StalCoreShortcode' ) ) {
-	class StalCoreInteractiveBannersShortcode extends StalCoreShortcode {
+	class StalCoreInteractiveBannersSoanishShortcode extends StalCoreShortcode {
 		
 		public function map_shortcode() {
 			$this->set_shortcode_path( STAL_CORE_SHORTCODES_URL_PATH . '/interactive-banners' );
