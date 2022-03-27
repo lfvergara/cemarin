@@ -33,6 +33,7 @@ if ( class_exists( 'StalCoreShortcode' ) ) {
 				                   'options'       => array(
 					                   'four' => esc_html__( 'Four', 'stal-core' ),
 					                   'five'    => esc_html__( 'Five', 'stal-core' )
+					                   'six'    => esc_html__( 'Five S', 'stal-core' )
 				                   ),
 				                   'default_value' => 'five'
 			                   ) );
