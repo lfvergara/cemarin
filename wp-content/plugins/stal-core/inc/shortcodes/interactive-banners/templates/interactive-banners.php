@@ -1,5 +1,5 @@
-<?php $i = 5; ?>
-<?php $j = 5; ?>
+<?php $i = 0; ?>
+<?php $j = 0; ?>
 <?php $f = $number_of_items_numeric; ?>
 
 <div class="qodef-interactive-banners <?php echo esc_attr($holder_classes); ?>">
