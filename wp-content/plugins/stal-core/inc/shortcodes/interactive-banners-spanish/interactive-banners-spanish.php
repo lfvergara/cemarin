@@ -9,7 +9,7 @@ if ( ! function_exists( 'stal_core_add_interactive_banners_shortcode' ) ) {
 	 * @return array
 	 */
 	function stal_core_add_interactive_banners_shortcode( $shortcodes ) {
-		$shortcodes[] = 'StalCoreInteractiveBannersSpanishShortcode';
+		$shortcodes[] = 'StalCoreInteractiveBannersShortcode';
 		
 		return $shortcodes;
 	}
@@ -18,12 +18,12 @@ if ( ! function_exists( 'stal_core_add_interactive_banners_shortcode' ) ) {
 }
 
 if ( class_exists( 'StalCoreShortcode' ) ) {
-	class StalCoreInteractiveBannersSpanishShortcode extends StalCoreShortcode {
+	class StalCoreInteractiveBannersShortcode extends StalCoreShortcode {
 		
 		public function map_shortcode() {
-			$this->set_shortcode_path( STAL_CORE_SHORTCODES_URL_PATH . '/interactive-banners-spanish' );
-			$this->set_base( 'stal_core_interactive_spanish_banners' );
-			$this->set_name( esc_html__( 'Interactive Columns Spanish', 'stal-core' ) );
+			$this->set_shortcode_path( STAL_CORE_SHORTCODES_URL_PATH . '/interactive-banners' );
+			$this->set_base( 'stal_core_interactive_banners' );
+			$this->set_name( esc_html__( 'Interactive Columns', 'stal-core' ) );
 			$this->set_description( esc_html__( 'Shortcode that displays interactive banners with provided parameters', 'stal-core' ) );
 			$this->set_category( esc_html__( 'Stal Core', 'stal-core' ) );
 			$this->set_option( array(
@@ -101,7 +101,7 @@ if ( class_exists( 'StalCoreShortcode' ) ) {
 			$atts['items']          = $this->parse_repeater_items( $atts['children'] );
 			$atts['this_shortcode'] = $this;
 			
-			return stal_core_get_template_part( 'shortcodes/interactive-banners-spanish', 'templates/interactive-banners-spanish', '', $atts );
+			return stal_core_get_template_part( 'shortcodes/interactive-banners', 'templates/interactive-banners', '', $atts );
 		}
 		
 		private function get_holder_classes( $atts ) {

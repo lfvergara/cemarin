@@ -28,9 +28,9 @@ if ( class_exists( 'QiAddonsForElementor_Shortcode' ) ) {
 		}
 
 		public function map_shortcode() {
-			$this->set_shortcode_path( QI_ADDONS_FOR_ELEMENTOR_SHORTCODES_URL_PATH . '/interactive-banner' );
+			$this->set_shortcode_path( QI_ADDONS_FOR_ELEMENTOR_SHORTCODES_URL_PATH . '/interactive-banner-spanish' );
 			$this->set_base( 'qi_addons_for_elementor_interactive_banner' );
-			$this->set_name( esc_html__( 'Interactive Banners', 'qi-addons-for-elementor' ) );
+			$this->set_name( esc_html__( 'Interactive Banners Spanish', 'qi-addons-for-elementor' ) );
 			$this->set_description( esc_html__( 'Shortcode that adds interactive banners element', 'qi-addons-for-elementor' ) );
 			$this->set_category( esc_html__( 'Qi Addons For Elementor', 'qi-addons-for-elementor' ) );
 			$this->set_subcategory( esc_html__( 'Business', 'qi-addons-for-elementor' ) );

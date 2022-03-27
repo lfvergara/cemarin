@@ -1,3 +1,3 @@
 <?php
 
-include_once 'interactive-banners-spanish.php';
+include_once 'interactive-banners.php';
