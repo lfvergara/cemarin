@@ -99,6 +99,7 @@ if ( class_exists( 'StalCoreShortcode' ) ) {
 			
 			$atts['holder_classes'] = $this->get_holder_classes( $atts );
 			$atts['number_of_items_numeric'] = $atts['number_of_items'] == 'four' ? 4 : 5;
+			$atts['number_of_items_numeric'] = $atts['number_of_items'] == 'six' ? 6 : $atts['number_of_items_numeric'];
 			$atts['items']          = $this->parse_repeater_items( $atts['children'] );
 			$atts['this_shortcode'] = $this;
 			
