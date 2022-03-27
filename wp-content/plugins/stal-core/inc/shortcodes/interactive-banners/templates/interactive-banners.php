@@ -184,16 +184,16 @@
                             case 0:
                         ?>
                                 <div style="margin-bottom: 42%;">
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/our-mission-and-vision/'">
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/mision-y-vision/'">
                                         NUESTRA MISIÓN Y VISIÓN
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/networks/'">
-                                        CEMARIN NETWORKS
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/redes/'">
+                                        REDES CEMARIN
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/upcoming-events/'">
-                                        UPCOMING EVENTS
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/proximos-eventos/'">
+                                        EVENTOS
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/icms/'">
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/icms-2/'">
                                         ICMS
                                     </button>
                                 </div>
@@ -202,11 +202,11 @@
                             case 1:
                         ?>
                                 <div style="margin-bottom: 50%;">
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/open-calls/'">
-                                        CALLS
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/convocatorias/'">
+                                        CONVOCATORIAS
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/training/'">
-                                        TRAINING
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/capacitacion/'">
+                                        FORMACIÓN
                                     </button>
                                 </div>
                         <?php
@@ -214,17 +214,17 @@
                             case 2:
                         ?>
                                 <div style="margin-bottom: 50%;">
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/strategic-research-plan/'">
-                                        STRATEGIC RESEARCH PLAN
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/plan-estrategico-de-investigacion/'">
+                                        PLAN ESTRATÉGICO DE INVESTIGACIÓN
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/our-researchers/'">
-                                        OUR RESEARCHERS
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/investigadores/'">
+                                        NUESTROS INVESTIGADORES
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/projects/'">
-                                        PROJECTS
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/proyectos/'">
+                                        PROYECTOS
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/innovation/'">
-                                        INNOVATION
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/innovacion/'">
+                                        INNOVACIÓN
                                     </button>
                                 </div>
                         <?php
@@ -232,17 +232,17 @@
                             case 3:
                         ?>
                                 <div style="margin-bottom: 50%;">
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/manifesto/'">
-                                        MANIFESTO
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/manifiesto/'">
+                                        MANIFIESTO
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/sonar-magazine/'">
-                                        SONAR MAGAZINE
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/sonar-magazine-2/'">
+                                        REVISTA SONAR
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/podcast/'">
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/podcast-2/'">
                                         PODCAST
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/video-library/'">
-                                        VIDEO LIBRARY
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/libreria-de-videos/'">
+                                        VIDEO
                                     </button>
                                 </div>
                         <?php
@@ -250,16 +250,16 @@
                             case 4:
                         ?>
                                 <div style="margin-bottom: 50%;">
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/management-bodies/'">
-                                        MANAGEMENT BODIES
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/organos-de-direccion/'">
+                                        ÓRGANOS DE ADMINISTRACIÓN
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/staff/'">
-                                        STAFF
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/staff-2/'">
+                                        EQUIPO
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/work-with-us/'">
-                                        WORK WITH US
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/trabaja-con-nosotros/'">
+                                        TRABAJE CON NOSOTROS
                                     </button>
-                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/legal/'">
+                                    <button style="color: #fff; font-size: 24px; border-top: none !important; border-left: none !important; border-right: none !important; border-bottom: 2px #00acec solid; width: 90%; background: none; text-align: left; padding-bottom: 5px; margin-bottom: 20px; cursor: pointer;" onclick="location.href='http://cemarin.proyectodharma.com/es/legal-2/'">
                                         LEGAL
                                     </button>
                                 </div>
