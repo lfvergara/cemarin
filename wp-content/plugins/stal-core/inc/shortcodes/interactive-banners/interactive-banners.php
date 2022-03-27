@@ -22,7 +22,7 @@ if ( class_exists( 'StalCoreShortcode' ) ) {
 		
 		public function map_shortcode() {
 			$this->set_shortcode_path( STAL_CORE_SHORTCODES_URL_PATH . '/interactive-banners' );
-			$this->set_base( 'stal_core_interactive_spanish_banners' );
+			$this->set_base( 'stal_core_interactive_banners' );
 			$this->set_name( esc_html__( 'Interactive Columns', 'stal-core' ) );
 			$this->set_description( esc_html__( 'Shortcode that displays interactive banners with provided parameters', 'stal-core' ) );
 			$this->set_category( esc_html__( 'Stal Core', 'stal-core' ) );
