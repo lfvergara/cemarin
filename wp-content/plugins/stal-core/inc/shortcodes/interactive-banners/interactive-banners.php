@@ -32,7 +32,7 @@ if ( class_exists( 'StalCoreShortcode' ) ) {
 				                   'title'         => esc_html__( 'Number Of Items', 'stal-core' ),
 				                   'options'       => array(
 					                   'four' => esc_html__( 'Four', 'stal-core' ),
-					                   'five'    => esc_html__( 'Five', 'stal-core' )
+					                   'five'    => esc_html__( 'Five', 'stal-core' ),
 					                   'five'    => esc_html__( 'Five S', 'stal-core' )
 				                   ),
 				                   'default_value' => 'five'
