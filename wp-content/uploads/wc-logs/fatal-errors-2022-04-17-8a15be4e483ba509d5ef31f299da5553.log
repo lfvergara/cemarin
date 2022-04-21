@@ -1,0 +1,162 @@
+2022-04-17T13:41:41+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 131072 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/faq/class-qiaddonsforelementor-faq-shortcode.php on line 852
+
+2022-04-17T13:41:41+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 131072 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/faq/class-qiaddonsforelementor-faq-shortcode.php on line 852
+
+2022-04-17T13:41:42+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 131072 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/faq/class-qiaddonsforelementor-faq-shortcode.php on line 852
+
+2022-04-17T13:41:44+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php on line 114
+
+2022-04-17T13:41:44+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 32768 bytes) in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/core-dashboard/core-dashboard.php on line 248
+
+2022-04-17T13:41:44+00:00 CRITICAL Out of memory (allocated 39845888) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/core/editor/editor.php on line 453
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 131072 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/faq/class-qiaddonsforelementor-faq-shortcode.php on line 852
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php on line 114
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php on line 114
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 35651584) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-includes/class-wp-hook.php on line 309
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-includes/class-wp-hook.php on line 309
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php on line 114
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-includes/class-wp-hook.php on line 309
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-includes/class-wp-hook.php on line 309
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 52428800) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-includes/class-wp-hook.php on line 309
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php on line 114
+
+2022-04-17T13:41:46+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php on line 114
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:41:48+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/subscribe-popup/dashboard/admin/subscribe-popup-options.php on line 105
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 32768 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/shortcodes/class-qiaddonsforelementor-framework-shortcode.php on line 296
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/subscribe-popup/dashboard/admin/subscribe-popup-options.php on line 105
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 32768 bytes) in /srv/websites/cemarin/wp-content/themes/stal/inc/plugins/class-tgm-plugin-activation.php on line 1719
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php on line 155
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php on line 155
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php on line 155
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php on line 155
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 32768 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/shortcodes/class-qiaddonsforelementor-framework-shortcode.php on line 296
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 29360128) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php on line 155
+
+2022-04-17T13:42:04+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php on line 155
+
+2022-04-17T13:42:19+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 65536 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/ImportScheduler.php on line 16
+
+2022-04-17T13:42:19+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 65536 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/ImportScheduler.php on line 16
+
+2022-04-17T13:42:19+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 65536 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/ImportScheduler.php on line 16
+
+2022-04-17T13:42:23+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:23+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 12288 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 569
+
+2022-04-17T13:42:23+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:23+00:00 CRITICAL Out of memory (allocated 16777216) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:23+00:00 CRITICAL Out of memory (allocated 16777216) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:23+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 12288 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 569
+
+2022-04-17T13:42:26+00:00 CRITICAL Out of memory (allocated 25165824) (tried to allocate 32768 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/i18n/countries.php on line 1
+
+2022-04-17T13:42:44+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:44+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:44+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:42:57+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 65536 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/ImportScheduler.php on line 16
+
+2022-04-17T13:43:10+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:43:11+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 131072 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/fonts.php on line 478
+
+2022-04-17T13:43:14+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-includes/functions.php on line 642
+
+2022-04-17T13:43:16+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 8192 bytes) in /srv/websites/cemarin/wp-includes/widgets/class-wp-widget-recent-comments.php on line 64
+
+2022-04-17T13:43:33+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:43:33+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:43:33+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:43:33+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:43:53+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 32768 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/plugins/woocommerce/shortcodes/product-slider/class-qiaddonsforelementor-product-slider-shortcode.php on line 358
+
+2022-04-17T13:43:53+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/plugins/woocommerce/shortcodes/product-slider/class-qiaddonsforelementor-product-slider-shortcode.php on line 358
+
+2022-04-17T13:43:57+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/shortcodes/class-qiaddonsforelementor-framework-shortcode.php on line 354
+
+2022-04-17T13:44:00+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_DataController.php on line 18
+
+2022-04-17T13:44:00+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:44:17+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php on line 168
+
+2022-04-17T13:44:22+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 131072 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/faq/class-qiaddonsforelementor-faq-shortcode.php on line 852
+
+2022-04-17T13:44:56+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/core/editor/editor.php on line 453
+
+2022-04-17T13:45:07+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:45:07+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 337
+
+2022-04-17T13:45:07+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/includes/db.php on line 333
+
+2022-04-17T13:45:09+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 8192 bytes) in /srv/websites/cemarin/wp-content/plugins/instagram-feed/inc/Builder/SBI_Feed_Builder.php on line 423
+
+2022-04-17T13:45:40+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/duplicate-post/src/post-duplicator.php on line 270
+
+2022-04-17T13:45:56+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 131072 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/faq/class-qiaddonsforelementor-faq-shortcode.php on line 852
+
+2022-04-17T13:46:10+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 131072 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/faq/class-qiaddonsforelementor-faq-shortcode.php on line 852
+

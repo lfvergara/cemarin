@@ -1,0 +1,8 @@
+2022-04-04T06:20:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/charts/charts.php en la línea 122
+
+2022-04-04T06:21:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /srv/websites/cemarin/wp-includes/functions.php on line 617
+
+2022-04-04T06:24:01+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en /srv/websites/cemarin/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/OnboardingTasks/Tasks/WooCommercePayments.php en la línea 45
+
+2022-04-04T14:18:36+00:00 CRITICAL Out of memory (allocated 33554432) (tried to allocate 782336 bytes) in /srv/websites/cemarin/wp-content/plugins/qode-framework/inc/fonts/google-fonts.php on line 13
+

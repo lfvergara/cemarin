@@ -1,0 +1,2 @@
+2022-03-29T15:20:41+00:00 CRITICAL Out of memory (allocated 77594624) (tried to allocate 8192 bytes) en /srv/websites/cemarin/wp-content/themes/stal/inc/plugins/class-tgm-plugin-activation.php en la línea 368
+

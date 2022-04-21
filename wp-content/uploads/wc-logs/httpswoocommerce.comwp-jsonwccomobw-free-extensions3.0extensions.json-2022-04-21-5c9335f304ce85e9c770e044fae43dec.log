@@ -1,0 +1,484 @@
+2022-04-21T16:52:56+00:00 ERROR Error getting data feed
+2022-04-21T16:52:56+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T16:52:56+00:00 ERROR Error getting data feed
+2022-04-21T16:52:56+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T16:52:57+00:00 ERROR Error getting data feed
+2022-04-21T16:52:57+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T16:52:57+00:00 ERROR Error getting data feed
+2022-04-21T16:52:57+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T16:52:57+00:00 ERROR Error getting data feed
+2022-04-21T16:52:57+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T16:53:08+00:00 ERROR Error getting data feed
+2022-04-21T16:53:08+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T16:53:08+00:00 ERROR Error getting data feed
+2022-04-21T16:53:08+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:52:14+00:00 ERROR Error getting data feed
+2022-04-21T20:52:14+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:52:14+00:00 ERROR Error getting data feed
+2022-04-21T20:52:14+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:52:15+00:00 ERROR Error getting data feed
+2022-04-21T20:52:15+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:52:15+00:00 ERROR Error getting data feed
+2022-04-21T20:52:15+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:52:15+00:00 ERROR Error getting data feed
+2022-04-21T20:52:15+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:59:06+00:00 ERROR Error getting data feed
+2022-04-21T20:59:06+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:59:06+00:00 ERROR Error getting data feed
+2022-04-21T20:59:06+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:59:06+00:00 ERROR Error getting data feed
+2022-04-21T20:59:06+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:59:06+00:00 ERROR Error getting data feed
+2022-04-21T20:59:06+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T20:59:06+00:00 ERROR Error getting data feed
+2022-04-21T20:59:06+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T21:48:42+00:00 ERROR Error getting data feed
+2022-04-21T21:48:42+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T21:48:42+00:00 ERROR Error getting data feed
+2022-04-21T21:48:42+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T21:48:42+00:00 ERROR Error getting data feed
+2022-04-21T21:48:42+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T21:48:42+00:00 ERROR Error getting data feed
+2022-04-21T21:48:42+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2022-04-21T21:48:42+00:00 ERROR Error getting data feed
+2022-04-21T21:48:42+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 60: SSL certificate problem: certificate has expired
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+

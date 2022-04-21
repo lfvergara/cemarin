@@ -1,0 +1,4 @@
+2022-04-10T21:49:23+00:00 CRITICAL Out of memory (allocated 44040192) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/qode-framework/inc/widgets/class-qodeframeworkwidget.php on line 67
+
+2022-04-10T21:50:18+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/elementor/core/settings/page/manager.php on line 14
+

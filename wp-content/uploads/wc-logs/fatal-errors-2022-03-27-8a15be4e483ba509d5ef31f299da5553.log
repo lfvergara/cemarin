@@ -197,3 +197,39 @@ Stack trace:
 
 2022-03-27T00:49:49+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
 
+2022-03-27T00:50:05+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:50:21+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:50:37+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:50:43+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:50:53+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:51:09+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:51:09+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:51:14+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:51:15+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:51:25+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T00:51:41+00:00 CRITICAL Cannot declare class QiAddonsForElementor_Interactive_Banner_Shortcode, because the name is already in use in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/interactive-banner-spanish/class-qiaddonsforelementor-interactive-banner-shortcode.php on line 21
+
+2022-03-27T01:13:49+00:00 CRITICAL syntax error, unexpected ''six'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' en /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/interactive-banners/interactive-banners.php en la línea 36
+
+2022-03-27T01:13:49+00:00 CRITICAL syntax error, unexpected ''six'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/interactive-banners/interactive-banners.php on line 36
+
+2022-03-27T01:13:51+00:00 CRITICAL syntax error, unexpected ''six'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/interactive-banners/interactive-banners.php on line 36
+
+2022-03-27T01:14:07+00:00 CRITICAL syntax error, unexpected ''six'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/interactive-banners/interactive-banners.php on line 36
+
+2022-03-27T01:14:24+00:00 CRITICAL syntax error, unexpected ''six'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/interactive-banners/interactive-banners.php on line 36
+
+2022-03-27T01:14:32+00:00 CRITICAL syntax error, unexpected ''five'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/interactive-banners/interactive-banners.php on line 36
+
+2022-03-27T01:14:40+00:00 CRITICAL syntax error, unexpected ''five'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/interactive-banners/interactive-banners.php on line 36
+

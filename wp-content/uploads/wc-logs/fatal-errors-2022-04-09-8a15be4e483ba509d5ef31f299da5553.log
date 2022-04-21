@@ -1,0 +1,6 @@
+2022-04-09T11:08:46+00:00 CRITICAL Out of memory (allocated 33554432) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/qode-framework/inc/common/fields-wp/class-qodeframeworkfieldwpyesno.php on line 5
+
+2022-04-09T11:08:49+00:00 CRITICAL Out of memory (allocated 50331648) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/shortcodes/class-qiaddonsforelementor-framework-shortcode.php on line 354
+
+2022-04-09T11:08:49+00:00 CRITICAL Out of memory (allocated 50331648) (tried to allocate 20480 bytes) in /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/admin/inc/shortcodes/class-qiaddonsforelementor-framework-shortcode.php on line 354
+

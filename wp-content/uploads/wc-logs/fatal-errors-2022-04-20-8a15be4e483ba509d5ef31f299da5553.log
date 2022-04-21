@@ -1,0 +1,2 @@
+2022-04-20T00:53:00+00:00 CRITICAL Out of memory (allocated 20971520) (tried to allocate 4096 bytes) in /srv/websites/cemarin/wp-content/plugins/instagram-feed/inc/if-functions.php on line 1099
+
