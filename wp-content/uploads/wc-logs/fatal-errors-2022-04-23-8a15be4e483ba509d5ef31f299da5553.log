@@ -1,0 +1,18 @@
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 29360128) (tried to allocate 20480 bytes) en /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/section-title/section-title-elementor.php en la línea 44
+
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 60817408) (tried to allocate 20480 bytes) en /srv/websites/cemarin/wp-includes/pomo/mo.php en la línea 323
+
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 32768 bytes) en /srv/websites/cemarin/wp-content/plugins/qode-framework/inc/post-types/class-qodeframeworkcustomposttype.php en la línea 257
+
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 75497472) (tried to allocate 16384 bytes) en /srv/websites/cemarin/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/business-hours/class-qiaddonsforelementor-business-hours-shortcode.php en la línea 494
+
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 85983232) (tried to allocate 20480 bytes) en /srv/websites/cemarin/wp-content/plugins/stal-core/inc/shortcodes/counter/counter.php en la línea 89
+
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 32768 bytes) en /srv/websites/cemarin/wp-content/plugins/qode-framework/inc/post-types/class-qodeframeworkcustomposttype.php en la línea 257
+
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 73400320) (tried to allocate 299008 bytes) in /srv/websites/cemarin/wp-includes/pomo/streams.php on line 222
+
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 60817408) (tried to allocate 20480 bytes) en /srv/websites/cemarin/wp-includes/pomo/mo.php en la línea 323
+
+2022-04-23T14:29:53+00:00 CRITICAL Out of memory (allocated 69206016) (tried to allocate 16384 bytes) en /srv/websites/cemarin/wp-content/plugins/elementor/includes/elements/column.php en la línea 698
+
