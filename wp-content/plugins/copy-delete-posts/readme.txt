@@ -2,8 +2,8 @@
 Contributors: CopyDeletePosts, copydelete
 Tags: Duplicate post, Copy posts, Copy pages, Duplicate posts, Duplicate pages, Clone posts, Clone pages, Delete posts, Delete pages, Duplicator, copy post, copy page
 Requires at least: 4.6
-Tested up to: 5.9.1
-Stable tag: 1.2.8
+Tested up to: 5.9.3
+Stable tag: 1.2.9
 License: GPLv3
 Requires PHP: 5.6
 
@@ -173,6 +173,13 @@ Vietnamese: [Sao chép bài đăng, sao chép trang, sao chép bài đăng tùy 
 
 == Changelog ==
 
+= 1.2.9 =
+* Improved meta duplication
+* Fixed copy issues with Elementor templates and pages
+* Improved look of Elementor duplicates (they should be perfect now)
+* Updated carrousel
+* Fixed conflicts of other plugins that blocks access to our settings
+
 = 1.2.8 =
 * Adjusted name of "Hiding Menu" option
 * Tested up to WordPress 5.9.1
@@ -314,8 +321,9 @@ Vietnamese: [Sao chép bài đăng, sao chép trang, sao chép bài đăng tùy 
 * Initial release
 
 == Upgrade Notice ==
-= 1.2.8 =
-* Adjusted name of "Hiding Menu" option
-* Tested up to WordPress 5.9.1
-* Adjusted copy tooltip animation, it should appear and disappear quicker
-* Fixed issues with our carrousel display
+= 1.2.9 =
+* Improved meta duplication
+* Fixed copy issues with Elementor templates and pages
+* Improved look of Elementor duplicates (they should be perfect now)
+* Updated carrousel
+* Fixed conflicts of other plugins that blocks access to our settings

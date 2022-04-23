@@ -433,7 +433,7 @@ function cdp_insert_new_post($areWePro = false) {
             $e = (mb_substr($meta, 0, 4) == '_wp_') ? true : false;
             $f = ($meta == '_thumbnail_id' && $settings['f_image']) ? true : false;
             $g = ($meta == '_cdp_origin') ? true : false;
-            $h = (mb_substr($meta, 0, 11) == '_elementor_') ? true : false;
+            $h = (strpos($meta, 'elementor') === false) ? false : true;
             $i = ($areWePro && function_exists('cdpp_check_all_meta')) ? cdpp_check_all_meta($settings, $meta) : false;
 
             // If any of above condition is true pass the meta tag
@@ -594,6 +594,12 @@ function cdp_insert_new_post($areWePro = false) {
                     // Replace the counter with dynamic value
                     if ($key == '_cdp_counter')
                         $val = $counter;
+
+                    if (is_serialized($val)) {
+                      $val = @maybe_unserialize($val);
+                    } else {
+                      $val = @wp_slash($val);
+                    }
 
                     // Insert meta tag
                     $res = add_post_meta($id, $key, $val);
@@ -886,8 +892,8 @@ function cdp_insert_new_post($areWePro = false) {
       $isSlowPerf = false;
     }
 
-    // Check if the copy time of one page was slower than 0.020 of second
-    if ($copyTimePerOne > 0.020) {
+    // Check if the copy time of one page was slower than 0.030 of second
+    if ($copyTimePerOne > 0.030) {
       $isSlowPerf = true;
     }
 

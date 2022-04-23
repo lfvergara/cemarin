@@ -40,6 +40,16 @@ class BlockTemplateUtils {
 	const PLUGIN_SLUG = 'woocommerce/woocommerce';
 
 	/**
+	 * Deprecated WooCommerce plugin slug
+	 *
+	 * For supporting users who have customized templates under the incorrect plugin slug during the first release.
+	 * More context found here: https://github.com/woocommerce/woocommerce-gutenberg-products-block/issues/5423.
+	 *
+	 * @var string
+	 */
+	const DEPRECATED_PLUGIN_SLUG = 'woocommerce';
+
+	/**
 	 * Returns an array containing the references of
 	 * the passed blocks and their inner blocks.
 	 *
@@ -153,7 +163,7 @@ class BlockTemplateUtils {
 		// We are checking 'woocommerce' to maintain legacy templates which are saved to the DB,
 		// prior to updating to use the correct slug.
 		// More information found here: https://github.com/woocommerce/woocommerce-gutenberg-products-block/issues/5423.
-		if ( self::PLUGIN_SLUG === $theme || 'woocommerce' === strtolower( $theme ) ) {
+		if ( self::PLUGIN_SLUG === $theme || self::DEPRECATED_PLUGIN_SLUG === strtolower( $theme ) ) {
 			$template->origin = 'plugin';
 		}
 
@@ -163,12 +173,12 @@ class BlockTemplateUtils {
 	/**
 	 * Build a unified template object based on a theme file.
 	 *
-	 * @param array $template_file Theme file.
-	 * @param array $template_type wp_template or wp_template_part.
+	 * @param array|object $template_file Theme file.
+	 * @param string       $template_type wp_template or wp_template_part.
 	 *
 	 * @return \WP_Block_Template Template.
 	 */
-	public static function gutenberg_build_template_result_from_file( $template_file, $template_type ) {
+	public static function build_template_result_from_file( $template_file, $template_type ) {
 		$template_file = (object) $template_file;
 
 		// If the theme has an archive-products.html template but does not have product taxonomy templates
@@ -254,11 +264,11 @@ class BlockTemplateUtils {
 			case 'single-product':
 				return __( 'Single Product', 'woocommerce' );
 			case 'archive-product':
-				return __( 'Product Archive', 'woocommerce' );
+				return __( 'Product Catalog', 'woocommerce' );
 			case 'taxonomy-product_cat':
-				return __( 'Product Category', 'woocommerce' );
+				return __( 'Products by Category', 'woocommerce' );
 			case 'taxonomy-product_tag':
-				return __( 'Product Tag', 'woocommerce' );
+				return __( 'Products by Tag', 'woocommerce' );
 			default:
 				// Replace all hyphens and underscores with spaces.
 				return ucwords( preg_replace( '/[\-_]/', ' ', $template_slug ) );
@@ -269,15 +279,12 @@ class BlockTemplateUtils {
 	 * Converts template paths into a slug
 	 *
 	 * @param string $path The template's path.
-	 * @param string $directory_name The template's directory name.
 	 * @return string slug
 	 */
-	public static function generate_template_slug_from_path( $path, $directory_name = 'block-templates' ) {
-		return substr(
-			$path,
-			strpos( $path, $directory_name . DIRECTORY_SEPARATOR ) + 1 + strlen( $directory_name ),
-			-5
-		);
+	public static function generate_template_slug_from_path( $path ) {
+		$template_extension = '.html';
+
+		return basename( $path, $template_extension );
 	}
 
 	/**
@@ -313,8 +320,8 @@ class BlockTemplateUtils {
 			function( $carry, $item ) use ( $template_filename ) {
 				$filepath = DIRECTORY_SEPARATOR . $item . DIRECTORY_SEPARATOR . $template_filename;
 
-				$carry[] = get_template_directory() . $filepath;
 				$carry[] = get_stylesheet_directory() . $filepath;
+				$carry[] = get_template_directory() . $filepath;
 
 				return $carry;
 			},
@@ -365,6 +372,28 @@ class BlockTemplateUtils {
 		}
 
 		return true;
+	}
+
+	/**
+	 * Retrieves a single unified template object using its id.
+	 *
+	 * @param string $id            Template unique identifier (example: theme_slug//template_slug).
+	 * @param string $template_type Optional. Template type: `'wp_template'` or '`wp_template_part'`.
+	 *                             Default `'wp_template'`.
+	 *
+	 * @return WP_Block_Template|null Template.
+	 */
+	public static function get_block_template( $id, $template_type ) {
+		if ( function_exists( 'get_block_template' ) ) {
+			return get_block_template( $id, $template_type );
+		}
+
+		if ( function_exists( 'gutenberg_get_block_template' ) ) {
+			return gutenberg_get_block_template( $id, $template_type );
+		}
+
+		return null;
+
 	}
 
 	/**

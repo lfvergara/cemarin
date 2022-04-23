@@ -21,12 +21,12 @@ import { useDebouncedCallback } from 'use-debounce';
  * Internal dependencies
  */
 import { useEditorContext } from '../../editor-context';
-import { useShippingDataContext } from '../shipping';
 import { useCustomerDataContext } from '../customer';
 import { useStoreCart } from '../../../hooks/cart/use-store-cart';
 import { useStoreNotices } from '../../../hooks/use-store-notices';
 import { useEmitResponse } from '../../../hooks/use-emit-response';
 import type { PaymentMethodsDispatcherType } from './types';
+import { useShippingData } from '../../../hooks/shipping/use-shipping-data';
 
 /**
  * This hook handles initializing registered payment methods and exposing all
@@ -48,7 +48,7 @@ const usePaymentMethodRegistration = (
 ) => {
 	const [ isInitialized, setIsInitialized ] = useState( false );
 	const { isEditor } = useEditorContext();
-	const { selectedRates } = useShippingDataContext();
+	const { selectedRates } = useShippingData();
 	const { billingData, shippingAddress } = useCustomerDataContext();
 	const selectedShippingMethods = useShallowEqual( selectedRates );
 	const paymentMethodsOrder = useShallowEqual( paymentMethodsSortOrder );
@@ -135,7 +135,7 @@ const usePaymentMethodRegistration = (
 			} catch ( e ) {
 				if ( CURRENT_USER_IS_ADMIN || isEditor ) {
 					const errorText = sprintf(
-						/* translators: %s the id of the payment method being registered (bank transfer, Stripe...) */
+						/* translators: %s the id of the payment method being registered (bank transfer, cheque...) */
 						__(
 							`There was an error registering the payment method with id '%s': `,
 							'woo-gutenberg-products-block'
@@ -153,8 +153,7 @@ const usePaymentMethodRegistration = (
 		// Re-dispatch available payment methods to store.
 		dispatcher( availablePaymentMethods );
 
-		// Note: some payment methods use the `canMakePayment` callback to initialize / setup.
-		// Example: Stripe CC, Stripe Payment Request.
+		// Note: Some 4rd party payment methods use the `canMakePayment` callback to initialize / setup.
 		// That's why we track "is initialized" state here.
 		setIsInitialized( true );
 	}, [

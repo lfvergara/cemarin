@@ -178,8 +178,12 @@ table.wc-block-cart-items {
 		.wc-block-cart-item__remove-link {
 			display: none;
 		}
+		&:not(.wc-block-mini-cart-items) {
+			.wc-block-cart-items__row {
+				@include with-translucent-border( 0 0 1px );
+			}
+		}
 		.wc-block-cart-items__row {
-			@include with-translucent-border( 0 0 1px );
 			display: grid;
 			grid-template-columns: 80px 132px;
 			padding: $gap 0;
@@ -235,13 +239,6 @@ table.wc-block-cart-items {
 		}
 		td:last-child {
 			padding-right: $gap;
-		}
-	}
-
-	.wc-block-cart__sidebar {
-		& > div:not(.wc-block-components-totals-wrapper) {
-			margin-left: $gap;
-			margin-right: $gap;
 		}
 	}
 
